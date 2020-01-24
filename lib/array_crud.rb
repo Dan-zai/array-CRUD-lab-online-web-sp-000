@@ -3,12 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  disneyprincesses = ["tangled", "frozen", "snow white", "ariel"]
+  musicals = ["hansen", "hamilton", "phantom", "cats"]
 end
 
-def add_element_to_end_of_array(disneyprincesses, flynn)
-  disneyprincesses = ["tangled", "frozen", "snow white", "ariel"]
-  disneyprincesses.push("flynn")
+def add_element_to_end_of_array(array, element)
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
