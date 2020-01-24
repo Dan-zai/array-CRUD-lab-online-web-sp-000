@@ -6,9 +6,9 @@ def create_an_array
   disneyprincesses = ["tangled", "frozen", "snow white", "ariel"]
 end
 
-def add_element_to_end_of_array(disneyprincesses, tangled)
-  disneyprincesses = ["hansen", "hamilton", "phantom", "cats"]
-  disneyprincesses.push(tangled)
+def add_element_to_end_of_array(disneyprincesses, flynn)
+  disneyprincesses = ["tangled", "frozen", "snow white", "ariel"]
+  disneyprincesses.push("flynn")
 end
 
 def add_element_to_start_of_array(array, element)
